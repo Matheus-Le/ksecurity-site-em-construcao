@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+.banner .content {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+}
+
+.banner .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5.5em;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.banner .content p {
+    font-size: 1.5em; /* Corrigido para incluir a unidade de medida 'em' */
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.banner .content img {
+    width: 200px;
+    height: 200px;
+}
